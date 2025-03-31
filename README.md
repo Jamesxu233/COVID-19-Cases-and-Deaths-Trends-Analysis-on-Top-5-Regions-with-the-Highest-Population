@@ -1,1 +1,3 @@
 # COVID-19-Cases-and-Deaths-Trends-Analysis-on-Top-5-Regions-with-the-Highest-Population
+
+This final project focus on the analysis of the trends of confirmed cases and deaths over 5 region with the highest population. Then the impact of two government policies over the timeline is illustrated through their correlation with the confirmed cases which shows whether these policies are effective to control the spread of epidemic. After the policy evaluation, two regression models are built to further predict the number of confirmed cases and deaths in the future through the analysis of confidence interval.
