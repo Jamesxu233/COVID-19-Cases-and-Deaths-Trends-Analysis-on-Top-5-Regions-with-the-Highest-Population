@@ -58,19 +58,20 @@ A suggested repository layout is:
 ```text
 .
 ├── README.md
-├── R/
+├── code/
 │   └── covid19_analysis.R
 ├── reports/
-│   └── final-project.pdf
+│   ├── final project.pdf 
+│   └── final project proposal.pdf
 ├── presentation/
-│   └── final-project-presentation.pptx
+│   └── final project presentation.pptx
 └── outputs/
-    ├── top_5_regions_by_population.png
-    ├── confirmed_cases_trends.png
-    ├── deaths_trends.png
-    ├── policy_case_correlations.png
-    ├── confirmed_cases_forecast.png
-    └── deaths_forecast.png
+    ├── top 5 regions by population.png
+    ├── confirmed cases trends.png
+    ├── deaths trends.png
+    ├── cases and policy correlation .png
+    ├── predicted confirmed cases.png
+    └── predicted deaths.png
 ```
 
 Only include the report, presentation, and output files in the repository if you choose to upload them. The analysis script creates the `outputs/` directory and saves the generated plots there.
@@ -100,7 +101,7 @@ install.packages(c("COVID19", "dplyr", "tidyr", "ggplot2"))
 4. Run the analysis script:
 
 ```r
-source("R/covid19_analysis.R")
+source("code/covid19_analysis.R")
 ```
 
 If the script is stored in the repository root instead, run:
